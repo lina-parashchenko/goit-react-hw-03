@@ -13,7 +13,7 @@ export default function App() {
     { id: "id-4", name: "Annie Copeland", number: "227-91-26" },
   ]);
 
-  const [filter, serFilter] = useState("");
+  const [filter, setFilter] = useState("");
 
   const addContact = (newContact) => {
     setContacts((prevContact) => {
@@ -22,12 +22,12 @@ export default function App() {
   };
 
   const deleteContact = (contactId) => {
-    setContacts((prevContact) => {
+    setContacts((prevContacts) => {
       return prevContacts.filter((contact) => contact.id !== contactId);
     });
   };
 
-  const filterContacts = contacts.filtred((contact) =>
+  const filterContacts = contacts.filter((contact) =>
     contact.name.toLowerCase().includes(filter.toLowerCase())
   );
 

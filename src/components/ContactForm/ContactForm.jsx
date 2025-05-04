@@ -12,10 +12,7 @@ const initialValues = {
 };
 
 const FeedbackSchema = Yup.object().shape({
-  name: Yup.string()
-    .min(3, "Too short")
-    .max(50, "Too long")
-    .required("Required"),
+  name: Yup.string().min(3, "Short").max(50, "Long").required("Required"),
   number: Yup.string()
     .phone("UA", "Please enter a valid phone number")
     .required("Required"),
