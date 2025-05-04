@@ -1,0 +1,17 @@
+.container {
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.animalsList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.animalsItem {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 8px;
+}

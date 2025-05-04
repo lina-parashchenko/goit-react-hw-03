@@ -1,0 +1,29 @@
+.containerTable {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+  width: 700px;
+  border-collapse: collapse;
+}
+
+.containerDiv {
+  padding-top: 100px;
+}
+
+.tableBorder {
+  border: 2px solid black;
+}
+
+.trhead {
+  background-color: grey;
+  color: white;
+}
+
+.thtdStyle {
+  padding: 6px 8px;
+  border: 1px solid black;
+}
+
+.trStyle:nth-child(even) {
+  background-color: rgb(160, 160, 165);
+}

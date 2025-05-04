@@ -1,0 +1,28 @@
+.isOnline {
+  color: green;
+  margin-top: 5px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.isOffline {
+  color: red;
+  margin-top: 5px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.nameOfAnimal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.imageOfAnimal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
