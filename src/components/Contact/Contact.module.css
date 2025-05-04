@@ -1,29 +1,20 @@
-.containerTable {
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 100px;
-  width: 700px;
-  border-collapse: collapse;
+.contactWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.containerDiv {
-  padding-top: 100px;
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
-.tableBorder {
-  border: 2px solid black;
-}
-
-.trhead {
-  background-color: grey;
-  color: white;
-}
-
-.thtdStyle {
-  padding: 6px 8px;
-  border: 1px solid black;
-}
-
-.trStyle:nth-child(even) {
-  background-color: rgb(160, 160, 165);
+.btn {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #888;
+  background-color: #f0f0f0;
+  transition: background-color 0.2s ease;
 }
